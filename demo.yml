@@ -8,7 +8,7 @@ greeting: Hello! Here's Dev!
 ---
 spring:
   profiles: stg
-greeting: Hello! Here's Dev!
+greeting: Hello! Here's Stg!
 ---
 spring:
   profiles: prod
