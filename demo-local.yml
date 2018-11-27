@@ -1,1 +1,16 @@
-greeting: Hello
+
+spring:
+  profiles: local
+greeting: Hello! Here's Local!
+---
+spring:
+  profiles: dev
+greeting: Hello! Here's Dev!
+---
+spring:
+  profiles: stg
+greeting: Hello! Here's Dev!
+---
+spring:
+  profiles: prod
+greeting: Hello! Here's Prod!
