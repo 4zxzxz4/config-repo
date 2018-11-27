@@ -1,4 +1,3 @@
-
 spring:
   profiles: local
 greeting: Hello! Here's Local!
