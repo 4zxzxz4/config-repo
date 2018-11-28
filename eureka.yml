@@ -1,1 +1,15 @@
-
+spring:
+  profiles: local
+greeting: Hello! Here's Eureka Local!
+---
+spring:
+  profiles: dev
+greeting: Hello! Here's Eureka Dev!
+---
+spring:
+  profiles: stg
+greeting: Hello! Here's Eureka Stg!
+---
+spring:
+  profiles: prod
+greeting: Hello! Here's Eureka Prod!
