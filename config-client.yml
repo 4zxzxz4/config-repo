@@ -1,6 +1,6 @@
 spring:
   profiles: local
-greeting: Hello! Here's Local!
+greeting: Hello! Here's Local edit!
 ---
 spring:
   profiles: dev
